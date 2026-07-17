@@ -31,6 +31,11 @@ class EggImagesPlugin implements HasPluginSettings, Plugin
 
     public function boot(Panel $panel): void {}
 
+    public function getSettingsFormData(): array
+    {
+        return config('egg-images');
+    }
+
     public function getSettingsForm(): array
     {
         return [

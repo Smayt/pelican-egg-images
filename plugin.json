@@ -2,7 +2,7 @@
     "id": "egg-images",
     "name": "Egg Images",
     "author": "Smayt",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Automatically fetches and manages egg artwork from Steam, IGDB, or manual upload.",
     "category": "plugin",
     "url": null,
